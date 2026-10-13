@@ -1,0 +1,17 @@
+[
+  {
+    "department": "BSCS",
+    "id": 1,
+    "name": "Ali"
+  },
+  {
+    "department": "BSIT",
+    "id": 2,
+    "name": "Ahmed"
+  },
+  {
+    "department": "BSCS",
+    "id": 3,
+    "name": "Sara"
+  }
+]

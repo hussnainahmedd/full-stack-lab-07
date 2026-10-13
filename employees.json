@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Khan",
+    "position": "Frontend Developer",
+    "salary": 120000
+  },
+  {
+    "id": 2,
+    "name": "Bilal Ahmed",
+    "position": "Backend Developer",
+    "salary": 140000
+  },
+  {
+    "id": 3,
+    "name": "Fatima Raza",
+    "position": "UI Designer",
+    "salary": 100000
+  },
+  {
+    "id": 4,
+    "name": "Usman Tariq",
+    "position": "QA Engineer",
+    "salary": 95000
+  },
+  {
+    "id": 5,
+    "name": "Hira Malik",
+    "position": "Project Manager",
+    "salary": 160000
+  }
+]

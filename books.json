@@ -1,0 +1,20 @@
+[
+  {
+    "author": "John Smith",
+    "id": 1,
+    "price": 1500,
+    "title": "Introduction to Programming"
+  },
+  {
+    "author": "Ayesha Khan",
+    "id": 2,
+    "price": 2200,
+    "title": "Data Structures in C++"
+  },
+  {
+    "author": "Bilal Ahmed",
+    "id": 3,
+    "price": 1850,
+    "title": "Database System Concepts"
+  }
+]
