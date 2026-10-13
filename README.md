@@ -11,6 +11,7 @@ BSCS coursework — Air University, Islamabad.
 | B | **Task 1** — calculator module (÷0 guard) + runner | `calculator.js`, `task1.js` |
 | C | File handling — text with `fs` | `write.js`, `read.js` → `students.txt` |
 | C | File handling — read + parse JSON | `readjson.js` |
+| C | File handling — write updated JSON back | `writejson.js` |
 | C | **Task 2** — employees JSON: read, display, add, write back | `manage-employees.js`, `employees.json` |
 | D–E | Student Management REST API (Express, CRUD + **Task 3** dept. filter + **Task 4** validation + file persistence) | `server.js`, `students.json` |
 | F | API testing with Postman (see checklist below) | — |
@@ -25,6 +26,7 @@ node task1.js             # Task 1: calculator module demo
 node write.js             # creates students.txt
 node read.js              # reads students.txt
 node readjson.js          # reads + parses students.json
+node writejson.js         # appends a student, writes back to students.json
 node manage-employees.js  # Task 2: reads, adds, rewrites employees.json
 
 node server.js            # Student API  -> http://localhost:3000

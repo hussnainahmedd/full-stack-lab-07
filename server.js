@@ -38,16 +38,6 @@ app.get("/students", (req, res) => {
   res.status(200).json(students);
 });
 
-// GET: filter students by department (Task 3)
-// Registered before /students/:id so "department" is never read as an :id.
-app.get("/students/department/:department", (req, res) => {
-  const department = req.params.department.toLowerCase();
-  const result = students.filter(
-    (item) => item.department.toLowerCase() === department
-  );
-  res.status(200).json(result);
-});
-
 // GET: retrieve one student by ID
 app.get("/students/:id", (req, res) => {
   const id = Number(req.params.id);
@@ -109,6 +99,15 @@ app.delete("/students/:id", (req, res) => {
     message: "Student deleted successfully",
     student: deletedStudent,
   });
+});
+
+// Optional extra route: filter by department (Task 3)
+app.get("/students/department/:department", (req, res) => {
+  const department = req.params.department.toLowerCase();
+  const result = students.filter(
+    (item) => item.department.toLowerCase() === department
+  );
+  return res.status(200).json(result);
 });
 
 app.listen(PORT, () => {

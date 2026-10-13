@@ -1,17 +1,17 @@
 [
   {
-    "department": "BSCS",
     "id": 1,
-    "name": "Ali"
+    "name": "Ali",
+    "department": "BSCS"
   },
   {
-    "department": "BSIT",
     "id": 2,
-    "name": "Ahmed"
+    "name": "Ahmed",
+    "department": "BSIT"
   },
   {
-    "department": "BSCS",
     "id": 3,
-    "name": "Sara"
+    "name": "Sara",
+    "department": "BSCS"
   }
 ]
